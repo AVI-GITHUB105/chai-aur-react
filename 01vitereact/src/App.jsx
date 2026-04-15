@@ -1,6 +1,6 @@
 import Chai from "./Chai"
 function App() {
-  const username = "User"; // Define the username variable
+  const username = "User"; // Define the username variable in app.jsx 2:15
 
   return (
     // <h1>chai aur vite</h1> 
@@ -9,6 +9,7 @@ function App() {
     <>
     <Chai/>
     <h1>chai aur react {username}</h1>
+    {/* {username} evaluated expressionnot js , js outcome  */}
     <p>test para</p>
    </>
   )
