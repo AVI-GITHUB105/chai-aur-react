@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-let [counter,setcounter] = useState(15)// can write anything 0 ... instead of 15
+let [counter,setcounter] = useState(15)// const bhi likh skte, can write anything 0 ... instead of 15
 
 //  let counter = 15 just variable change hoga ui nhi
 const incvalue = function (){
@@ -38,3 +38,70 @@ const decvalue = function (){
 }
 
 export default App
+
+// setcounter(prev => {
+//     const next = prev + 1
+//     if (next > 20) {
+//       alert('counter cant be greater than 20')
+//       return prev
+//     }
+//     return next
+//   })
+//   setcounter(prev => {
+//     const next = prev + 1
+//     if (next > 20) {
+//       alert('counter cant be greater than 20')
+//       return prev
+//     }
+//     return next
+//   })
+//   setcounter(prev => {
+//     const next = prev + 1
+//     if (next > 20) {
+//       alert('counter cant be greater than 20')
+//       return prev
+//     }
+//     return next
+//   })
+//   setcounter(prev => {
+//     const next = prev + 1
+//     if (next > 20) {
+//       alert('counter cant be greater than 20')
+//       return prev
+//     }
+//     return next
+//   })
+
+// const incvalue = function (){
+//   if (counter >= 20){
+//     alert('counter cant be greater than 20')
+//     return
+//   }
+
+//   setcounter(prev => {
+//     const next = prev + 1
+//     if (next > 20) {
+//       alert('counter cant be greater than 20')
+//       return prev
+//     }
+//     return next
+//   })
+//   console.log("value inc", counter)
+// }
+
+// const decvalue = function (){
+//   if (counter <= 0){
+//     alert('counter cant be less than zero')
+//     return
+//   }
+
+//   setcounter(prev => {
+//     const next = prev - 1
+//     if (next < 0) {
+//       alert('counter cant be less than zero')
+//       return prev
+//     }
+//     return next
+//   })
+//   console.log("value dec", counter)
+// }
